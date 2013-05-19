@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SimpleIPDetector.exe" version="1.0.0.0" publicKeyToken="e558526a13c79c4a" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="1368987769_64372.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SimpleIPDetector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SimpleIPDetector.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options du manifeste de contrôle de compte d'utilisateur
+          Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le 
+          nœud requestedExecutionLevel par l'une des propositions suivantes :
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si vous souhaitez utiliser la virtualisation de fichiers et du Registre pour la 
+         compatibilité descendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimpleIPDetector.exe" size="17920">
+      <assemblyIdentity name="SimpleIPDetector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1dcLM0uKjzXFPKauL1tkbWC75luBF1I21lPUuvhC0K0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1368987769_64372.ico" size="5430">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Bz5SYKjBkLfQdXonUApG954eh7tDmw78SA2lOs3VOU8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SimpleIPDetector.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=danielportable\Daniel-Portable" issuerKeyHash="c100d88f8b7d6b5f291263b3ffab51cfb0a63817" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3UQktJ8gd23HOY86jCl6/8cLcq+3IReM0ZTk1CJNMe4=</DigestValue></Reference></SignedInfo><SignatureValue>q1SugTV5/G94si77mUqokXdIwOFIu/p1/VcHQV/in79a5w6ISVwnT0th3V0mWMMNwwZKx9Z/YhAcmhDwO4DdgZkgiO+gABp87GEfzCWJxX8PoJApP3PLHeSJJfLHF0Z7l6BV9o46DPP8t46eVtvzOpKn3OeJ04noy0wvmeZO2KQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vV+cM/ps5zcwA0qifMmohk3Cmk6xBMJQ8ESgDG6p6EcgRlR9YfIneHz72K1jwA7dF3hfv5MtTqnW7/kw76D3LcFM54IvyTlERVMYa5stdjAP4GXbg88N2sKlrymUqM6GTaonMNaLOM17k++hnSN5f9GjUN0z6WAZ1RJRGgn8h7k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ee314d22d4e494d18c1721b7af720bc7ff7a298c3a8f39c76d77209fb42444dd" Description="" Url=""><as:assemblyIdentity name="SimpleIPDetector.exe" version="1.0.0.0" publicKeyToken="e558526a13c79c4a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=danielportable\Daniel-Portable</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3B5y+XcMuiSYn74Lbjk8j1+DfLt53rZbc7F66Wbnquw=</DigestValue></Reference></SignedInfo><SignatureValue>jYA2VJhDvFYCANxBCUkIf8qLa670V1krfsLNXmO0NnMJvmKpC3TrBU0SO1/aOU/XagqjqeU9FzDmAwJWFN6lI+yq+jGdopwD7oeLzWqWgfvzJRxVfAc2Fq6N1hDC/AOqXTXRpcdqy5NraWXRLGuXWZ5oXmFcfB6T7Rko2xzhG6A=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vV+cM/ps5zcwA0qifMmohk3Cmk6xBMJQ8ESgDG6p6EcgRlR9YfIneHz72K1jwA7dF3hfv5MtTqnW7/kw76D3LcFM54IvyTlERVMYa5stdjAP4GXbg88N2sKlrymUqM6GTaonMNaLOM17k++hnSN5f9GjUN0z6WAZ1RJRGgn8h7k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQQrQNqhENs65Fj3fu/ENfrjANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDHjwAZABhAG4AaQBlAGwAcABvAHIAdABhAGIAbABlAFwARABhAG4AaQBlAGwALQBQAG8AcgB0AGEAYgBsAGUwHhcNMTMwNTE5MTMyNDAzWhcNMTQwNTE5MTkyNDAzWjBHMUUwQwYDVQQDHjwAZABhAG4AaQBlAGwAcABvAHIAdABhAGIAbABlAFwARABhAG4AaQBlAGwALQBQAG8AcgB0AGEAYgBsAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL1fnDP6bOc3MANKonzJqIZNwppOsQTCUPBEoAxuqehHIEZUfWHyJ3h8+9itY8AO3Rd4X7+TLU6p1u/5MO+g9y3BTOeCL8k5REVTGGubLXYwD+Bl24PPDdrCpa8plKjOhk2qJzDWizjNe5PvoZ0jeX/Ro1DdM+lgGdUSURoJ/Ie5AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAZUPaTvVK3YkDO1Ec8xnhzDELHJmWcCIS5cFTfMKHS4vpGbZpo61ASMrB4fXgIQhVfoWdJI/Ow/TGHpPWud9tO4fN3BiXStUMW53aCBqq71ArQmy68v4NKj3n3NIbGqqvkvM4CBWBcXy2W5GgaNFypB1GJJbFPzu5zdFz77eCVs4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

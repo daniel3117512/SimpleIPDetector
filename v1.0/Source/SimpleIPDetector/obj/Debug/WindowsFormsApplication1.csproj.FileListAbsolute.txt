@@ -1,0 +1,14 @@
+C:\Users\Daniel-Portable\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Daniel-Portable\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Daniel-Portable\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Daniel-Portable\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\Daniel-Portable\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Debug\SimpleIPDetector.exe.config
+C:\Users\Daniel-Portable\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Debug\SimpleIPDetector.exe.manifest
+C:\Users\Daniel-Portable\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Debug\SimpleIPDetector.application
+C:\Users\Daniel-Portable\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Debug\SimpleIPDetector.exe
+C:\Users\Daniel-Portable\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Debug\SimpleIPDetector.pdb
+C:\Users\Daniel-Portable\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\IPDetector.Properties.Resources.resources
+C:\Users\Daniel-Portable\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\SimpleIPDetector.exe.manifest
+C:\Users\Daniel-Portable\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\SimpleIPDetector.application
+C:\Users\Daniel-Portable\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\SimpleIPDetector.exe
+C:\Users\Daniel-Portable\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\SimpleIPDetector.pdb
